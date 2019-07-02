@@ -9,5 +9,6 @@ namespace AuditColumns.Models
     public class JpContext : DbContext
     {
         public DbSet<Articulo> Articulos {get;set;}
+        public JpContext() : base("DefaultConnection") { }
     }
 }
