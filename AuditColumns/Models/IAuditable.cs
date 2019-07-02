@@ -10,7 +10,7 @@ namespace AuditColumns.Models
         DateTime FECHA_CREACION { get; set; }
         string USUARIO_CREACION { get; set; }
 
-        DateTime FECHA_MODIFICACION { get; set; }
+        DateTime? FECHA_MODIFICACION { get; set; }
         string USUARIO_MODIFICACION { get; set; }
     }
 }
